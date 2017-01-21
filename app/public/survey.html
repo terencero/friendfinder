@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Friend Finder</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- jQuery must be installed before bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <input type="text" id="name">
+            <label for="name">Name (required)</label>
+            <input type="text" id="photo">
+            <label for="name">Photo (required)</label>
+        </form>
+        
+        <div class="row">
+        <h3>Do you like to read books?</h3>
+            <div class="input-group">
+                <span class="input-group-addon">1 (Strongly disagree)
+			        <input type="checkbox" aria-label="..." class="scores" name="group1" value="1">
+			      </span>
+			      <span class="input-group-addon">2
+			        <input type="checkbox" aria-label="..." class="scores" name="group1" value="2">
+			      </span>
+			      <span class="input-group-addon">3
+			        <input type="checkbox" aria-label="..." class="scores" name="group1" value="3">
+			      </span>
+			      <span class="input-group-addon">4
+			        <input type="checkbox" aria-label="..." class="scores" name="group1" value="4">
+			      </span>
+			      <span class="input-group-addon">5 (Strongly agree)
+			        <input type="checkbox" aria-label="..." class="scores" name="group1" value="5">
+			      </span>
+            </div>
+		</div>
+        
+        <div class="row">
+        <h3>Do you like sports?</h3>
+            <div class="input-group">
+                <span class="input-group-addon">1 (Strongly disagree)
+			        <input type="checkbox" aria-label="..." class="scores" name="group2" value="1">
+			      </span>
+			      <span class="input-group-addon">2
+			        <input type="checkbox" aria-label="..." class="scores" name="group2" value="2">
+			      </span>
+			      <span class="input-group-addon">3
+			        <input type="checkbox" aria-label="..." class="scores" name="group2" value="3">
+			      </span>
+			      <span class="input-group-addon">4
+			        <input type="checkbox" aria-label="..." class="scores" name="group2" value="4">
+			      </span>
+			      <span class="input-group-addon">5 (Strongly agree)
+			        <input type="checkbox" aria-label="..." class="scores" name="group2" value="5">
+			      </span>
+            </div>
+         </div>   
+            
+            <div class="row">
+            <h3>Do you enjoy nature?</h3>
+            <div class="input-group">
+                <span class="input-group-addon">1 (Strongly disagree)
+			        <input type="checkbox" aria-label="..." class="scores" name="group3" value="1">
+			      </span>
+			      <span class="input-group-addon">2
+			        <input type="checkbox" aria-label="..." class="scores" name="group3" value="2">
+			      </span>
+			      <span class="input-group-addon">3
+			        <input type="checkbox" aria-label="..." class="scores" name="group3" value="3">
+			      </span>
+			      <span class="input-group-addon">4
+			        <input type="checkbox" aria-label="..." class="scores" name="group3" value="4">
+			      </span>
+			      <span class="input-group-addon">5 (Strongly agree)
+			        <input type="checkbox" aria-label="..." class="scores" name="group3" value="5">
+			      </span>
+            </div>
+		</div>
+            
+            <div class="row">
+            <h3>Do you enjoy philosophy?</h3>
+            <div class="input-group">
+                <span class="input-group-addon">1 (Strongly disagree)
+			        <input type="checkbox" aria-label="..." class="scores" name="group4" value="1">
+			      </span>
+			      <span class="input-group-addon">2
+			        <input type="checkbox" aria-label="..." class="scores" name="group4" value="2">
+			      </span>
+			      <span class="input-group-addon">3
+			        <input type="checkbox" aria-label="..." class="scores" name="group4" value="3">
+			      </span>
+			      <span class="input-group-addon">4
+			        <input type="checkbox" aria-label="..." class="scores" name="group4" value="4">
+			      </span>
+			      <span class="input-group-addon">5 (Strongly agree)
+			        <input type="checkbox" aria-label="..." class="scores" name="group4" value="5">
+			      </span>
+            </div>
+
+           
+            <div class="row">
+            <h3>Do you enjoy learning about space?</h3>
+            <div class="input-group">
+                <span class="input-group-addon">1 (Strongly disagree)
+			        <input type="checkbox" aria-label="..." class="scores" name="group5" value="1">
+			      </span>
+			      <span class="input-group-addon">2
+			        <input type="checkbox" aria-label="..." class="scores" name="group5" value="2">
+			      </span>
+			      <span class="input-group-addon">3
+			        <input type="checkbox" aria-label="..." class="scores" name="group5" value="3">
+			      </span>
+			      <span class="input-group-addon">4
+			        <input type="checkbox" aria-label="..." class="scores" name="group5" value="4">
+			      </span>
+			      <span class="input-group-addon">5 (Strongly agree)
+			        <input type="checkbox" aria-label="..." class="scores" name="group5" value="5">
+			      </span>
+            </div>
+		</div>
+            
+            <div class="row">
+            <h3>Do you enjoy learning about world history?</h3>
+            <div class="input-group">
+                <span class="input-group-addon">1 (Strongly disagree)
+			        <input type="checkbox" aria-label="..." class="scores" name="group6" value="1">
+			      </span>
+			      <span class="input-group-addon">2
+			        <input type="checkbox" aria-label="..." class="scores" name="group6" value="2">
+			      </span>
+			      <span class="input-group-addon">3
+			        <input type="checkbox" aria-label="..." class="scores" name="group6" value="3">
+			      </span>
+			      <span class="input-group-addon">4
+			        <input type="checkbox" aria-label="..." class="scores" name="group6" value="4">
+			      </span>
+			      <span class="input-group-addon">5 (Strongly agree)
+			        <input type="checkbox" aria-label="..." class="scores" name="group6" value="5">
+			      </span>
+            </div>
+		</div>
+            
+            <div class="row">
+            <h3>Do you enjoy relaxing at home?</h3>
+            <div class="input-group">
+                <span class="input-group-addon">1 (Strongly disagree)
+			        <input type="checkbox" aria-label="..." class="scores" name="group7" value="1">
+			      </span>
+			      <span class="input-group-addon">2
+			        <input type="checkbox" aria-label="..." class="scores" name="group7" value="2">
+			      </span>
+			      <span class="input-group-addon">3
+			        <input type="checkbox" aria-label="..." class="scores" name="group7" value="3">
+			      </span>
+			      <span class="input-group-addon">4
+			        <input type="checkbox" aria-label="..." class="scores" name="group7" value="4">
+			      </span>
+			      <span class="input-group-addon">5 (Strongly agree)
+			        <input type="checkbox" aria-label="..." class="scores" name="group7" value="5">
+			      </span>
+            </div>
+		</div>
+            
+            <div class="row">
+            <h3>Do you enjoy carbonated water?</h3>
+            <div class="input-group">
+                <span class="input-group-addon">1 (Strongly disagree)
+			        <input type="checkbox" aria-label="..." class="scores" name="group8" value="1">
+			      </span>
+			      <span class="input-group-addon">2
+			        <input type="checkbox" aria-label="..." class="scores" name="group8" value="2">
+			      </span>
+			      <span class="input-group-addon">3
+			        <input type="checkbox" aria-label="..." class="scores" name="group8" value="3">
+			      </span>
+			      <span class="input-group-addon">4
+			        <input type="checkbox" aria-label="..." class="scores" name="group8" value="4">
+			      </span>
+			      <span class="input-group-addon">5 (Strongly agree)
+			        <input type="checkbox" aria-label="..." class="scores" name="group8" value="5">
+			      </span>
+            </div>
+		</div>
+            
+            <div class="row">
+            <h3>Do you value a sense of humor?</h3>
+            <div class="input-group">
+                <span class="input-group-addon">1 (Strongly disagree)
+			        <input type="checkbox" aria-label="..." class="scores" name="group9" value="1">
+			      </span>
+			      <span class="input-group-addon">2
+			        <input type="checkbox" aria-label="..." class="scores" name="group9" value="2">
+			      </span>
+			      <span class="input-group-addon">3
+			        <input type="checkbox" aria-label="..." class="scores" name="group9" value="3">
+			      </span>
+			      <span class="input-group-addon">4
+			        <input type="checkbox" aria-label="..." class="scores" name="group9" value="4">
+			      </span>
+			      <span class="input-group-addon">5 (Strongly agree)
+			        <input type="checkbox" aria-label="..." class="scores" name="group9" value="5">
+			      </span>
+            </div>
+		</div>
+            
+            <div class="row">
+            <h3>Do you value politeness?</h3>
+            <div class="input-group">
+                <span class="input-group-addon">1 (Strongly disagree)
+			        <input type="checkbox" aria-label="..." class="scores" name="group10" value="1">
+			      </span>
+			      <span class="input-group-addon">2
+			        <input type="checkbox" aria-label="..." class="scores" name="group10" value="2">
+			      </span>
+			      <span class="input-group-addon">3
+			        <input type="checkbox" aria-label="..." class="scores" name="group10" value="3">
+			      </span>
+			      <span class="input-group-addon">4
+			        <input type="checkbox" aria-label="..." class="scores" name="group10" value="4">
+			      </span>
+			      <span class="input-group-addon">5 (Strongly agree)
+			        <input type="checkbox" aria-label="..." class="scores" name="group10" value="5">
+			      </span>
+            </div>
+		</div>
+
+            <button type="button" class="btn btn-primary btn-md" id="add-btn"><span class="glyphicon glyphicon-fire"></span> Submit</button>
+        </div>
+
+        <a href="/api/friends" id="apiSearch">API Friends</a>
+
+
+	<script>
+	$("#apiSearch").on("click", function(event){
+		$.get('/api/friends', function (req, res) {
+		console.log(friendsData);
+	});
+	});
+	</script>
+</body>
+<script>
+
+
+
+
+$("#add-btn").on("click", function(event) {
+    event.preventDefault();
+    
+    // possibly use a var map = {}?? for scores?
+    var input = [];
+    var scoreInput = [];
+    input = $(':checkbox:checked');
+    for(i=0; i<input.length; i++){
+    scoreInput.push(input[i].value);
+}
+    var newFriend = {
+        name: $("#name").val().trim(),
+        photo: $("#photo").val().trim(),
+        scores: scoreInput
+    };
+
+console.log(newFriend);
+
+    var currentURL = window.location.origin;
+
+    $.post(currentURL + "/api/tables", newFriend,
+        function(data) {
+
+            // Clear the form when submitting
+            $("#name").val("");
+            $("#photo").val("");
+            $(".scores").val("");
+        });
+
+});
+
+$('input[type="checkbox"]').on('change', function() {
+    $('input[name="' + this.name + '"]').not(this).prop('checked', false);
+});
+
+</script>
+
+</html>
