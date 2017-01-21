@@ -10,5 +10,17 @@ module.exports = function(app) {
 
 	app.post('/api/friends', function(req, res) {
 		friendsData.push(req.body);
+		var diff = [];
+		for(i=0; i<friendsData.length; i++) {
+			var result = req.body.scores[i] - friendsData.scores[i];
+			diff.push(Math.abs(result));
+		}
+		diff.sort(function(a, b){
+		return a-b;
+
 	});
+		console.log(diff[0]);
+		res.json(diff[0]);
+	});
+
 };
