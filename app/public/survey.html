@@ -245,14 +245,8 @@
 		console.log(friendsData);
 	});
 	});
-	</script>
-</body>
-<script>
 
-
-
-
-$("#add-btn").on("click", function(event) {
+	$("#add-btn").on("click", function(event) {
     event.preventDefault();
     
     // possibly use a var map = {}?? for scores?
@@ -272,7 +266,7 @@ console.log(newFriend);
 
     var currentURL = window.location.origin;
 
-    $.post(currentURL + "/api/tables", newFriend,
+    $.post(currentURL + "/api/friends", newFriend,
         function(data) {
 
             // Clear the form when submitting
@@ -287,6 +281,6 @@ $('input[type="checkbox"]').on('change', function() {
     $('input[name="' + this.name + '"]').not(this).prop('checked', false);
 });
 
-</script>
-
+	</script>
+</body>
 </html>
